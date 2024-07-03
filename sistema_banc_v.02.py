@@ -51,7 +51,7 @@ def criar_usuario(usuarios):
     nome = input("Digite seu nome: ")
     print("Digite sua data de nascimento")
     data_nascimento = data()
-    endereco = input("Digite seu endereço (logradouro, num - bairro - cidade/silga estado):")
+    endereco = input("Digite seu endereço (logradouro, num - bairro - cidade/sigla estado):")
 
     usuarios.append({"nome": nome, "data_nascimento": data_nascimento, "CPF": cpf,"endereco": endereco})
     print("usuário criado com sucesso!")
